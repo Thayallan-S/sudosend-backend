@@ -1,0 +1,25 @@
+{
+  "name": "sudosend-backend",
+  "version": "1.0.0",
+  "description": "Sudosend's backend server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thayallan-S/sudosend-backend.git"
+  },
+  "author": "Thayallan Srinathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thayallan-S/sudosend-backend/issues"
+  },
+  "homepage": "https://github.com/Thayallan-S/sudosend-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "socket.io": "^2.3.0"
+  }
+}
