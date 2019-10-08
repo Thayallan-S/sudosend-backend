@@ -76,7 +76,7 @@ io.on('connection', function (socket) {
 });
 
 app.get("/", function (request, response) {
-  response.send('<a href="https://github.com/aviaryan/chattt">LOST?</a>');
+  response.send('<a href="https://github.com/thayallan-s">Sup Im Thayallan</a>');
 });
 
 // listen for requests :)
