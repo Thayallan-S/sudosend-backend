@@ -4,6 +4,16 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
+const { WebClient } = require('@slack/web-api');
+// Slack Verification Token received from Slack apps page
+const token = 'KQWEE0qPTlDdEYSyErPqILNP';
+const web = new WebClient(token);
+
+(async () => {
+  
+});
+
+
 // global variables
 let channels = {};
 
